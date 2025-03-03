@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Message</title>
+</head>
+<body>
+    <div class="wrapper">
+
+    
+    <a href="/"><button class="back-home-btn">Back To Home</button></a>
+    <form method="POST" action="/new">
+        
+        <h3 class="add-message">Add a new message</h3>
+        <input required id="input-name" type="text" name="user" placeholder="Enter your name">
+       
+        <textarea cols="40" rows="5" id="input-massage" required type="text" name="text" placeholder="Enter your message"></textarea>
+        <input type="submit" value="Send">
+    </form>
+</div>
+</body>
+</html>

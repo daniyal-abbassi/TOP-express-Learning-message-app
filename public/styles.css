@@ -1,0 +1,143 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  background-color: #0a0a23;
+  min-height: 800px;
+  height: auto;
+}
+.messages-wrapper {
+  height: 850px;
+  background-color: #0a0a23;
+}
+.back-home-btn {
+  font-size: 2rem;
+  margin: 20px 0 0 100px;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  background-color: #fff;
+  color: #0a0a23;
+}
+#input-massage {
+  font-size: 1rem !important;
+  padding: 5px;
+}
+.user-name , .message-text{
+  display: inline-block;
+  color: #fff;
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 50px 50px;
+}
+.message-date-display span {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-left: 100px;
+  margin-bottom: 25px;
+}
+.message-date-display h6 {
+  display: inline-block;
+  color: #fff;
+  font-size: 1.4rem;
+}
+.message-text textarea {
+  font-size: 1rem;
+  padding: 5px;
+  border: none;
+  margin-top: 80px;
+
+}
+.message-user-name h2 {
+  color: #fff;
+  display: inline-block;
+  font-size: 3rem;
+}
+.message-btn {
+  display: inline-block;
+  background-color: #fff;
+  color: #0a0a23;
+  font-size: 2rem;
+  padding: 10px;
+  border: none;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  font-size: 3rem;
+  background-color: #0a0a23;
+  height: auto;
+}
+form .add-message {
+  color: white;
+}
+input {
+  width: 400px;
+  height: 120px;
+  font-size: 2.5rem;
+  padding: 5px 10px;
+}
+input[type="submit"] {
+  background-color: white;
+  color: #0a0a23;
+  font-weight: bold;
+  font-size: 4rem;
+  border: none;
+}
+.title {
+  color: #a5c8e9;
+  padding: 10px 0 5px 30px;
+  font-size: 2.1rem;
+}
+.container {
+  margin-top: 50px;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  font-size: 1.46rem;
+}
+.message {
+  border: 4px solid #a5c8e9;
+  padding: 1px 20px;
+  border-radius: 15px;
+}
+.user,
+.text {
+  display: block;
+  background-color: whitesmoke;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 0;
+}
+.add {
+  margin-left: 40%;
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+a {
+  color: #0a0a23;
+  text-decoration: none;
+  font-weight: bold;
+}
+.text {
+  height: 100px;
+  user-select: none;
+  resize: none;
+  margin-top: 20px;
+}
+.user {
+  text-align: center;
+}
+
+.date {
+  color: white;
+}

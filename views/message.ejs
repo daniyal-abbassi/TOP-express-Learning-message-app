@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Message</title>
+  </head>
+  <body>
+    <div class="messages-wrapper">
+      <div class="title">
+        <h1>Message Details</h1>
+        <a href="/"><button class="message-btn">Back to Messages</button></a>
+      </div>
+
+      <div>
+        <div class="message-user-name">
+          <span class="user-name"> Username: </span>
+          <h2><%= message.user %></h2>
+        </div>
+
+        <div class="message-text">
+          <span class="message-text">Text: </span>
+         
+          <textarea readonly name="message-text-display" cols="80" rows="5" >
+            <%= message.text %>
+          </textarea>
+        </div>
+        <div class="message-date-display">
+            <span>Date Added: </span>
+            <h6><%= message.added %></h6>
+        </div>
+        
+      </div>
+    </div>
+  </body>
+</html>

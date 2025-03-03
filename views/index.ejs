@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Messages</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="title">
+        <h1>Messages</h1>
+        <button class="add"><a href="/new">Add Message</a></button>
+      </div>
+    
+      <div class="container">
+        <% messages.forEach((message,index)=>{%>
+        <div class="message">
+          <h2 class="user"><%= message.user %></h2>
+          
+          
+          <textarea readonly class="text" name="text" cols="40"><%= message.text %></textarea> 
+          <a href="/message/<%= index %>" target="_blank"><button>Open Message</button></a>
+          <h6 class="date"><%= message.added %></h6>
+        </div>
+        
+        <%})%>
+      </div>
+    </div>
+  </body>
+</html>
